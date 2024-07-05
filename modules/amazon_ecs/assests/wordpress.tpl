@@ -1,7 +1,7 @@
 [
   {
     "name": "${ecs_service_container_name}",
-    "image": "484537504486.dkr.ecr.us-east-1.amazonaws.com/wordpress-hub-seara:latest",
+    "image": "wordpress:latest",
     "portMappings": [
       {
         "containerPort": 80,
